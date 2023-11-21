@@ -1,5 +1,5 @@
 // Write your code here
-import {AiFillCalender} from 'react-icons/ai'
+import {AiFillCalendar} from 'react-icons/ai'
 
 import {
   ProjectCardContainer,
@@ -29,7 +29,7 @@ const ProjectTimelineCard = props => {
       <ProjectTitleAndDurationContainer>
         <ProjectTitle>{projectTitle}</ProjectTitle>
         <DurationContainer>
-          <AiFillCalender color="#171f46" />
+          <AiFillCalendar color="#171f46" />
           <Duration>{duration}</Duration>
         </DurationContainer>
       </ProjectTitleAndDurationContainer>
